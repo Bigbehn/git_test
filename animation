@@ -1,0 +1,31 @@
+<html>
+  <title>BERNARD</title>
+  <head>
+    <style>
+      @keyframes slideIn {
+        from{
+        transform: rotate(0);  
+        }
+        to{
+        transform: rotate(-360deg);  
+        }
+      }
+      
+      h1 {
+        animation-name:slideIn;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out ;
+        animation-delay :0s;
+        animation-iteration-count: 61;
+        
+        transform-origin: top 
+        ;
+        
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>BERNARD</h1> 
+  </body>
+  </html>
